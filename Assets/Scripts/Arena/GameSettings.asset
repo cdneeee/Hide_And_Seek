@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09916a94faaca64c9d5e30525e3079f, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  maxEpisodeSteps: 3000
+  gracePeriodFraction: 0.4
+  arenaSize: 25
+  wallHeight: 3
+  numHiders: 1
+  numSeekers: 1
+  agentMoveSpeed: 5
+  agentRotateSpeed: 200
+  agentRadius: 0.5
+  numBoxes: 3
+  numRamps: 2
+  grabRange: 2.5
+  objectSpacing: 3
+  viewAngle: 90
+  viewDistance: 20
+  visibilityRewardScale: 1
+  stepPenalty: -0.0001
+  outOfBoundsPenalty: -0.01
+  winReward: 1
+  allowCapture: 0
+  captureDistance: 1.2
+  capturesToWin: 3
